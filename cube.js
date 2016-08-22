@@ -16,7 +16,7 @@ window.requestAnimFrame =
 	};
 
 function Thing(vert, faces) {
-	this.weight = 3;
+	this.weight = 2;
 	this.pos = {x: 0, y: 0, z: 0};
 
 	/* OFF like format */
