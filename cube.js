@@ -161,6 +161,8 @@ var oth = new Thing(
 var cam = new Camera();
 var r = 0;
 
+cub.scale(0.5);
+
 (function animloop() {
 	requestAnimFrame(animloop);
 
