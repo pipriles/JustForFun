@@ -2,8 +2,8 @@ var canvas = document.getElementById('screen'),
 	ctx = canvas.getContext('2d');
 
 // Fullscreen
-canvas.width  = 2*640;
-canvas.height = 2*480;
+canvas.width  = 720;
+canvas.height = 720;
 
 window.requestAnimFrame =
 	window.requestAnimationFrame 		||
