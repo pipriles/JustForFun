@@ -161,6 +161,8 @@ var oth = new Thing(
 var cam = new Camera();
 var r = 0;
 
+cub.scale(0.5);
+
 (function animloop() {
 	requestAnimFrame(animloop);
 
@@ -172,14 +174,14 @@ var r = 0;
 	cub.rotateX(0.005);
 	cub.rotateY(-0.005);
 	cub.rotateZ(0.005);
-	cub.translateTo(0, 0, -1);
+	cub.translateTo(0, 0, -1.5);
 
 
 	oth.translateTo(-oth.pos.x, -oth.pos.y, -oth.pos.z);
 	oth.rotateX(-0.005);
 	oth.rotateY(0.005);
 	oth.rotateZ(-0.005);
-	oth.translateTo(0, 0, -8);
+	oth.translateTo(0, 0, -11);
 
 })();
 
